@@ -11,7 +11,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-cli = ["click==7.1.1"]
+cli = ["click==8.1.7"]
 
 [tool.uv]
 dev-dependencies = [
