@@ -1,0 +1,26 @@
+[project]
+name = "foo"
+version = "0.0.1"
+description = "Hey"
+authors = []
+requires-python = ">=3.9"
+dependencies = [
+    "pydantic==2.1.1",
+    "SQLAlchemy==2.0.4",
+    "starlette==0.26.0",
+]
+
+[project.optional-dependencies]
+cli = ["click==7.1.1"]
+
+[tool.uv]
+dev-dependencies = [
+    "mkdocs==1.6.0",
+    "mkdocs-material==9.5.31",
+    "mypy==1.10.0",
+    "pre-commit==3.8.0",
+    "pytest==7.4.2",
+    "pytest-cov==4.0.0",
+    "pytest-xdist[psutil]==3.6.1",
+    "types-colorama==0.4.15.20240311; sys_platform == 'win32'",
+]
