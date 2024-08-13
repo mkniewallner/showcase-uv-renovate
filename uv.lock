@@ -1017,15 +1017,15 @@ wheels = [
 
 [[package]]
 name = "starlette"
-version = "0.26.0"
+version = "0.38.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
     { name = "typing-extensions", marker = "python_version < '3.10'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b9/ee/b18370bcf691d858f8819c761df634ac9b42311a46047a705ad0888ed8db/starlette-0.26.0.tar.gz", hash = "sha256:0ac958cbefad8f10b157ea60958cc0ef8d34dd33b77ca011aab58f1bb34a5670", size = 51244 }
+sdist = { url = "https://files.pythonhosted.org/packages/43/e2/d49a94ecb665b3a1c34b40c78165a737abc384fcabc843ccb14a3bd3dc37/starlette-0.38.2.tar.gz", hash = "sha256:c7c0441065252160993a1a37cf2a73bb64d271b17303e0b0c1eb7191cfb12d75", size = 2844770 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/4c/9c/7700bcaa0a11c4f4f0eb7ac02c6f0c181f4b6dd2dbc2e0d618f4488b8689/starlette-0.26.0-py3-none-any.whl", hash = "sha256:71595d3a19e9fdb359542538a89224b6bc11087170ad4473bc9051df5f5c7459", size = 66843 },
+    { url = "https://files.pythonhosted.org/packages/c1/60/d976da9998e4f4a99e297cda09d61ce305919ea94cbeeb476dba4fece098/starlette-0.38.2-py3-none-any.whl", hash = "sha256:4ec6a59df6bbafdab5f567754481657f7ed90dc9d69b0c9ff017907dd54faeff", size = 72020 },
 ]
 
 [[package]]
